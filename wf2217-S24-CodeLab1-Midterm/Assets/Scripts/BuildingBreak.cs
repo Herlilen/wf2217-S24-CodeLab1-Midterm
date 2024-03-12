@@ -16,6 +16,8 @@ public class BuildingBreak : MonoBehaviour
         _parentScript = parentBuilding.GetComponent<BuildingHealth>();
         _rb = gameObject.GetComponent<Rigidbody>();
         _rb.isKinematic = true;
+
+        GetComponent<MeshRenderer>().material = _parentScript.buildingMat[0];
     }
 
     // Update is called once per frame
@@ -23,7 +25,10 @@ public class BuildingBreak : MonoBehaviour
     {
         if (_parentScript.blocksBroken)
         {
+            //fall
             _rb.isKinematic = false;
+            //change material
+            GetComponent<MeshRenderer>().material = _parentScript.buildingMat[1];
         }
     }
 }

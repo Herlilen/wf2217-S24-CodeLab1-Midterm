@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 2724511842795139392}
   m_Layer: 0
   m_Name: Building2
-  m_TagString: Untagged
+  m_TagString: Attackable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -368,7 +368,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blocksBroken: 0
   broke: {fileID: 8300000, guid: f3e3ac4a2d04d4b4995f0ba77c554ced, type: 3}
-  buildingHealth: 50
+  buildingMat:
+  - {fileID: 2100000, guid: 80892d6ae25bb184f8ef0cc9fafc3d71, type: 2}
+  - {fileID: 2100000, guid: df86514eaa29a7143a9accadcccb7553, type: 2}
+  buildingHealth: 400
 --- !u!82 &2724511842795139392
 AudioSource:
   m_ObjectHideFlags: 0

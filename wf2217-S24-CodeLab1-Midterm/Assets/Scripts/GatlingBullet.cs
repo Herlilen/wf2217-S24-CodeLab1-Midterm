@@ -8,8 +8,8 @@ using UnityEngine;
 public class GatlingBullet : MonoBehaviour
 {
     private Rigidbody _rigidbody;
-
     private float destryCountDown;
+    private bool damageDealt;
     [SerializeField] private GameObject hitParticleGatlin;
     
     private void Awake()
@@ -33,17 +33,40 @@ public class GatlingBullet : MonoBehaviour
 
         if (destryCountDown <= 0)
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        var collisionPoint = other.ClosestPoint(transform.position);
-        Instantiate(hitParticleGatlin,
-            new Vector3(collisionPoint.x, collisionPoint.y, collisionPoint.z),
-            quaternion.identity);
-        Destroy(this);
-        Debug.Log("hit" + other.gameObject.name);
+        if (other.tag == "Attackable")
+        {
+            //vfx and destroy self
+            var collisionPoint = other.ClosestPoint(transform.position);
+            Instantiate(hitParticleGatlin,
+                new Vector3(collisionPoint.x, collisionPoint.y, collisionPoint.z),
+                quaternion.identity);
+        
+            //deal damage
+            if (!damageDealt)
+            {
+                BuildingHealth _buildingHealth = other.GetComponent<BuildingHealth>();
+                EnemyController _enemyController = other.GetComponent<EnemyController>();
+                if (_buildingHealth != null)
+                {
+                    _buildingHealth.buildingHealth -= playerController.instance.gatlingDamage;
+
+                    damageDealt = true;
+                }
+
+                if (_enemyController != null)
+                {
+                    _enemyController.enemyHealth -= playerController.instance.gatlingDamage;
+                    damageDealt = true;
+                }
+            }
+        
+            Destroy(gameObject);
+        }
     }
 }

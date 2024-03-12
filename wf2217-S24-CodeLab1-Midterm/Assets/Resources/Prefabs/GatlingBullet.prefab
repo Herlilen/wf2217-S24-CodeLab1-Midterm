@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7240291851642075906}
   m_Layer: 0
   m_Name: GatlingBullet
-  m_TagString: Untagged
+  m_TagString: PlayerAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,7 +105,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 10, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &301796406876282252
 MonoBehaviour:
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 098c1149f0698c14583df5ed6f8b42e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitParticleGatlin: {fileID: 4184831820040277122, guid: 1bee58de964145a42bfce895cf98666d,
+  hitParticleGatlin: {fileID: 4212237911574779972, guid: f34d53a9f8cd409428b8d1e3addf4807,
     type: 3}
 --- !u!54 &7240291851642075906
 Rigidbody:

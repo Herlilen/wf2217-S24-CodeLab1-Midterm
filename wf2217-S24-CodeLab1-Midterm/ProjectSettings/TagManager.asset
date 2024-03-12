@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlayerAttack
+  - PlayerAttack1
+  - Attackable
   layers:
   - Default
   - TransparentFX

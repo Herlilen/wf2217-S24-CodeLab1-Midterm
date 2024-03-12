@@ -9,8 +9,9 @@ public class BuildingHealth : MonoBehaviour
     public bool blocksBroken;
     private AudioSource _audioSource;
     [SerializeField] private AudioClip broke;
+    public Material[] buildingMat;
     private bool playonce;
-    [SerializeField] private float buildingHealth;
+    public float buildingHealth;
 
     private void Start()
     {
@@ -25,8 +26,10 @@ public class BuildingHealth : MonoBehaviour
     {
         if (buildingHealth <= 0)
         {
+            //break the bricks
             blocksBroken = true;
             _collider.enabled = false;
+            //play audio once
             if (!playonce)
             {
                 _audioSource.PlayOneShot(broke);

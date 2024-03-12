@@ -8,6 +8,9 @@ using UnityEngine.Serialization;
 public class playerController : MonoBehaviour
 {
     public static playerController instance;
+
+    [Header("Player Status")] 
+    public float health;
     
     [Header("Camera")] 
     [SerializeField] private Camera _camera;
@@ -35,15 +38,23 @@ public class playerController : MonoBehaviour
     [SerializeField] private GameObject gatlingBullet;
     [SerializeField] private GameObject gatLingL;
     [SerializeField] private GameObject gatLingR;
-    [SerializeField] private bool gatlingIsFireing = false;
+    private bool gatlingIsFireing = false;
     [SerializeField] private float gatlingFireRate = 10f;
-    [SerializeField] float fireTimer = 0f;
+    float gatlingFireTimer = 0f;
     public float gatlingDamage = 1;
     public float gatlingSpeed = 10f;
+    [SerializeField] private GameObject beamBullet;
+    [SerializeField] private GameObject beamHolder;
+    private float beamFireCoolDown = 0f;
+    [SerializeField] private float beamFireCoolDownMax = 5f;
+    public float beamDamage = 100f;
+    public float beamSpeed = 10f;
     
     [Header("Audio")] 
     [SerializeField] private GameObject enginePlayer;
     [SerializeField] private GatlingAudio gatlingHolder;
+    [SerializeField] private GameObject musicPlayer;
+    [SerializeField] private MusicPlayer _music;
     
     private void Awake()
     {
@@ -63,32 +74,45 @@ public class playerController : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        health = 100;
     }
 
     // Update is called once per frame
     void Update()
     {
-        CameraControl();
-        AudioPlayControl();
-        if (GameManager.instance.controlReady)
+        if (health > 0)
         {
-            Shoot();
+            CameraControl();
+            AudioPlayControl();
+            if (GameManager.instance.controlReady)
+            {
+                Shoot();
+            }
         }
+
     }
 
     private void FixedUpdate()
     {
-        if (GameManager.instance.controlReady)
+        if (health > 0)
         {
-            _rigidbody.isKinematic = false;
-            Movement();
-        }
-        else
-        {
-            _rigidbody.isKinematic = true;
+            if (GameManager.instance.controlReady)
+            {
+                _rigidbody.isKinematic = false;
+                Movement();
+            }
+            else
+            {
+                _rigidbody.isKinematic = true;
+            }
         }
     }
 
+    public void HitAudio()
+    {
+        musicPlayer.GetComponent<AudioSource>().PlayOneShot(_music._audioClip);
+    }
+    
     void Shoot()
     {
         // shott when key hold
@@ -100,27 +124,45 @@ public class playerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             gatlingIsFireing = false;
-            fireTimer = 0f; //reset fire rate cool down
+            gatlingFireTimer = 0f; //reset fire rate cool down
         }
 
-        if (gatlingIsFireing && fireTimer <= 0f)
+        if (gatlingIsFireing && gatlingFireTimer <= 0f)
         {
             Instantiate(gatlingBullet, gatLingL.transform.position, gatLingL.transform.rotation);
             Instantiate(gatlingBullet, gatLingR.transform.position, gatLingR.transform.rotation);
             //set timer
-            fireTimer = 1f / gatlingFireRate;
+            gatlingFireTimer = 1f / gatlingFireRate;
             //play audio
             gatlingHolder.gatlingFireAudio();
         }
 
-        if (fireTimer > 0)
+        if (gatlingFireTimer > 0)
         {
-            fireTimer -= Time.deltaTime;
+            gatlingFireTimer -= Time.deltaTime;
         }
 
-        if (fireTimer <= 0)
+        if (gatlingFireTimer <= 0)
         {
-            fireTimer = 0;
+            gatlingFireTimer = 0;
+        }
+        
+        //shoot beam
+        if (Input.GetKeyDown(KeyCode.Mouse1) && beamFireCoolDown == 0)
+        {
+            Instantiate(beamBullet, beamHolder.transform.position, beamHolder.transform.rotation);
+            beamFireCoolDown = beamFireCoolDownMax;
+            beamHolder.GetComponent<BeamAudio>().BeamFireAudio();
+        }
+
+        if (beamFireCoolDown > 0)
+        {
+            beamFireCoolDown -= Time.deltaTime;
+        }
+
+        if (beamFireCoolDown <= 0)
+        {
+            beamFireCoolDown = 0;
         }
     }
     

@@ -36,6 +36,8 @@ public class GameManager : MonoBehaviour
     private string inputCode = "";
     private bool gameStarted;
     private bool audEngineHasPlayed;
+    private float inputCoolDown;    //avoid spamming the numbers
+    private float inputCoolDownMax;
 
     [Header("Audio")] 
     private AudioSource _audioSource;
@@ -65,12 +67,23 @@ public class GameManager : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
         audSlideHasPlayed = false;
         audEngineHasPlayed = false;
+        inputCoolDownMax = .2f;
     }
 
     // Update is called once per frame
     void Update()
     {
         //engine start setting
+        if (inputCoolDown > 0)
+        {
+            inputCoolDown -= Time.deltaTime;
+        }
+
+        if (inputCoolDown <= 0)
+        {
+            inputCoolDown = 0;
+        }
+        
         if (Input.GetKeyDown(KeyCode.Keypad0) ||
             Input.GetKeyDown(KeyCode.Keypad1) ||
             Input.GetKeyDown(KeyCode.Keypad2) ||
@@ -92,13 +105,19 @@ public class GameManager : MonoBehaviour
             Input.GetKeyDown(KeyCode.Alpha9)
             )
         {
-            //audio
-            _audioSource.PlayOneShot(_clips[1]);
+            if (inputCoolDown == 0)
+            {
+                //audio
+                _audioSource.PlayOneShot(_clips[1]);
             
-            //get pressed keys
-            string pressedKey = Input.inputString;
-            //add onto the code
-            inputCode += pressedKey;
+                //get pressed keys
+                string pressedKey = Input.inputString;
+                //add onto the code
+                inputCode += pressedKey;
+                
+                //reset input cool down
+                inputCoolDown = inputCoolDownMax;
+            }
             
             //Check if the input code matches the access code
             if (inputCode == engineStartCode && !engineStart)
@@ -118,7 +137,6 @@ public class GameManager : MonoBehaviour
         
         HatchAndMonitorControl();     //control hatch according to engine status
     }
-    
     
     void HatchAndMonitorControl()
     {
