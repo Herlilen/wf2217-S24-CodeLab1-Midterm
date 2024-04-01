@@ -75,7 +75,8 @@ public class GameManager : MonoBehaviour
         inputCoolDownMax = .2f;
 
 
-
+  
+        
         if (debugMode)
         {
             
@@ -298,11 +299,13 @@ public class GameManager : MonoBehaviour
                     hasResetPositionLevel1 = true;
                 }
                 
-                //count down for 5 seconds
+                //count down for 15 seconds
                 //play count down audio
                 if (!audEngineHasPlayed)
                 {
                     _audioSource.PlayOneShot(_clips[4]);
+                    Debug.Log("Engine Start sound");
+                    
                     audEngineHasPlayed=true;
                 }
                 countDownTimer -= Time.deltaTime;
@@ -317,7 +320,10 @@ public class GameManager : MonoBehaviour
                     hologram.SetActive(true);
                     
                     //vfx
+                    
+                    CockpitBody.SetActive(true);
                     spaceTunnel.SetActive(false);
+                    
                     
                     if (_materialAlpha > 0)
                     {
