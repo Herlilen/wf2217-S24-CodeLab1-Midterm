@@ -9,6 +9,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public bool debugMode;
+    
+    public GameObject spaceTunnel;
+    public GameObject CockpitBody;
+    
     [Header("Game Status & Engine Start")] 
     [SerializeField] private GameObject playerHolder;
     [SerializeField] private GameObject hatchHolder;
@@ -68,11 +73,86 @@ public class GameManager : MonoBehaviour
         audSlideHasPlayed = false;
         audEngineHasPlayed = false;
         inputCoolDownMax = .2f;
+
+
+
+        if (debugMode)
+        {
+            
+            controlReady = true;
+            SceneManager.LoadScene(2);
+            
+            //effect
+            hologram.SetActive(true);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (debugMode)
+        {
+            
+            //cockpit transparent control;
+            _cockpitMaterial.color = new Color(0, 0, 0, _materialAlpha);
+            //hologram shader control;
+            _hologramMaterial.SetVector("_Hologram_Tiling", holoValue);
+            if (hatchHolder.transform.localRotation.x < 0)
+            {
+                hatchHolder.transform.Rotate(hatchRotateSpeed *20f* hatchRotateDirectionClose * Time.deltaTime);
+                
+            }
+            if (hatchHolder.transform.localRotation.x >= 0)
+            {
+
+                hatchHolder.transform.localRotation = Quaternion.Euler(0,0,0);
+            }
+            
+            //monitors movement
+            if (monitorR.transform.localRotation.y > 0)
+            {
+                monitorR.transform.Rotate(monitorRrotationSpeedClose *20f * -Vector3.forward * Time.deltaTime);
+            }
+            if (monitorL.transform.localRotation.y < 0)
+            {
+                monitorL.transform.Rotate(monitorLrotationSpeedClose *20f * Vector3.forward * Time.deltaTime);
+            }
+            
+            hologram.SetActive(true);
+                    
+            if (!hasResetPositionLevel1)    //load level 1 once
+            {
+                playerHolder.transform.position = new Vector3(-44.6f, 500, 48.3f);
+                playerHolder.transform.rotation = Quaternion.Euler(0, 148, 0);
+                hasResetPositionLevel1 = true;
+            }
+            
+            
+            if (_materialAlpha > 0)
+            {
+                _materialAlpha -= Time.deltaTime;
+            }
+
+            if (_materialAlpha <= 0)
+            {
+                _materialAlpha = 0;
+            }
+            
+            //hologram start
+            if (_hologramMaterial.GetVector("_Hologram_Tiling").y <= 64)
+            {
+                holoValue.y += 100 * Time.deltaTime;
+            }
+
+            if (holoValue.y >= 64)
+            {
+                holoValue.y = 64;
+            }
+            
+            
+            return;
+        }
+        
         //engine start setting
         if (inputCoolDown > 0)
         {
@@ -158,6 +238,9 @@ public class GameManager : MonoBehaviour
         //animation
         if (engineStart)
         {
+            
+            
+            
             //hatch holder rotate
             if (hatchHolder.transform.localRotation.x < 0)
             {
@@ -190,10 +273,19 @@ public class GameManager : MonoBehaviour
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             if (!hasLoadedLevel && hatchHolder.transform.localRotation.x == 0)
             {
-                //load to level 1
+                //load to level 1 if not debug mode
+             
                 SceneManager.LoadScene(currentSceneIndex + 1);
 
                 hasLoadedLevel = true;
+                
+                
+                // vfx
+                spaceTunnel.SetActive(true);
+                CockpitBody.SetActive(false);
+                
+                
+
             }
             
             //alpha becomes zero && holo start
@@ -223,6 +315,9 @@ public class GameManager : MonoBehaviour
                 if (countDownTimer == 0)
                 {
                     hologram.SetActive(true);
+                    
+                    //vfx
+                    spaceTunnel.SetActive(false);
                     
                     if (_materialAlpha > 0)
                     {

@@ -8,6 +8,9 @@ using UnityEngine.Serialization;
 public class playerController : MonoBehaviour
 {
     public static playerController instance;
+    
+    
+    
 
     [Header("Player Status")] 
     public float health;
@@ -75,6 +78,9 @@ public class playerController : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         health = 100;
+
+
+
     }
 
     // Update is called once per frame
