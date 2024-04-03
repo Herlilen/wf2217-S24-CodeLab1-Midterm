@@ -18,8 +18,8 @@ MonoBehaviour:
       serializedVersion: 2
       x: -1440
       y: -1040
-      width: 1114
-      height: 2115
+      width: 1116
+      height: 2127
     contents:
     - model: {fileID: 8926484042661616078}
       id: 0
@@ -102,8 +102,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1440
     y: -1040
-    width: 1114
-    height: 2115
+    width: 1116
+    height: 2127
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: StylizedBeam_New
+  m_Name: StylizedBullet
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -301,7 +301,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StylizedBeam_New
+  m_Name: StylizedBullet
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -4707,7 +4707,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -979, y: 645}
+  m_UIPosition: {x: -979, y: 573}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -4843,7 +4843,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -999, y: 771}
+  m_UIPosition: {x: -999, y: 718}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -5327,7 +5327,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616233}
   m_ExposedName: ParticlesRate
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
@@ -5346,7 +5346,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616233}
       inputSlot: {fileID: 8926484042661616083}
-    position: {x: -969, y: -812}
+    position: {x: -968.6667, y: -812}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616233
@@ -5407,7 +5407,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616235}
   m_ExposedName: ParticlesRadius
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -5487,7 +5487,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616237}
   m_ExposedName: ParticlesVelocity
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -5700,7 +5700,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661616133}
     - outputSlot: {fileID: 8926484042661616242}
       inputSlot: {fileID: 8926484042661616198}
-    position: {x: -1109, y: -153}
+    position: {x: -1108.6666, y: -153.33333}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616242
@@ -5762,7 +5762,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616244}
   m_ExposedName: Duration 2
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 4
   m_Category: 
   m_Min:
     m_Type:
@@ -5781,14 +5781,14 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616244}
       inputSlot: {fileID: 8926484042661616202}
-    position: {x: -1200, y: -917}
+    position: {x: -1200, y: -917.3333}
     expandedSlots: []
     expanded: 0
   - m_Id: 1
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616244}
       inputSlot: {fileID: 8926484042661616206}
-    position: {x: -1415, y: -773}
+    position: {x: -1414.6666, y: -773.3333}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616244
@@ -5850,7 +5850,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616246}
   m_ExposedName: ParticlesSize
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 5
   m_Category: 
   m_Min:
     m_Type:
@@ -5871,7 +5871,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661616166}
     - outputSlot: {fileID: 8926484042661616246}
       inputSlot: {fileID: 8926484042661616215}
-    position: {x: -1129, y: 666}
+    position: {x: -1256, y: 666}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616246
@@ -5933,7 +5933,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616248}
   m_ExposedName: ParticlesScale
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 6
   m_Category: 
   m_Min:
     m_Type:
@@ -5954,7 +5954,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661616173}
     - outputSlot: {fileID: 8926484042661616248}
       inputSlot: {fileID: 8926484042661616219}
-    position: {x: -1133, y: 786}
+    position: {x: -1212, y: 750.6667}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616248
@@ -6118,7 +6118,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616253}
   m_ExposedName: ParticlesColor
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: 
   m_Min:
     m_Type:
@@ -6137,7 +6137,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616253}
       inputSlot: {fileID: 8926484042661616179}
-    position: {x: -999, y: 846}
+    position: {x: -998.6667, y: 846}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616253
@@ -6334,7 +6334,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616259}
   m_ExposedName: ParticlesTexture
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 8
   m_Category: 
   m_Min:
     m_Type:
@@ -6353,7 +6353,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616259}
       inputSlot: {fileID: 8926484042661616160}
-    position: {x: -1036, y: 447}
+    position: {x: -1036, y: 446.66666}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616259
@@ -6414,7 +6414,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616261}
   m_ExposedName: ParticlesTrubulenceIntensity
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 9
   m_Category: 
   m_Min:
     m_Type:
@@ -6437,7 +6437,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661616211}
     - outputSlot: {fileID: 8926484042661616261}
       inputSlot: {fileID: 8926484042661616229}
-    position: {x: -1399, y: 35}
+    position: {x: -1398.6666, y: 34.666664}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616261

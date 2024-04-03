@@ -7,6 +7,18 @@ using UnityEngine.Serialization;
 
 public class playerController : MonoBehaviour
 {
+    public bool newEffect;
+
+    public GameObject upEffect;
+    public GameObject upEffectFinal;
+    public Transform upBulletTransform;
+    
+    
+    public GameObject rightBeam;
+    public GameObject leftBeam;
+    
+    
+    
     public static playerController instance;
     
     
@@ -121,11 +133,58 @@ public class playerController : MonoBehaviour
     
     void Shoot()
     {
-        // shott when key hold
+        if (newEffect)
+        {
+            
+            if (Input.GetKey(KeyCode.Mouse2))
+            {
+                upEffect.SetActive(true);
+                
+            }
+            if (Input.GetKeyUp(KeyCode.Mouse2))
+            {
+                upEffect.SetActive(false);
+                //instatiate final effect
+                upEffectFinal.SetActive(false);
+                upEffectFinal.SetActive(true);
+                
+            }
+
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                leftBeam.SetActive(false);
+                leftBeam.SetActive(true);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.Mouse1))
+            {
+                rightBeam.SetActive(false);
+                rightBeam.SetActive(true);
+            }
+
+            
+            
+            
+            
+            return;
+        }
+        
+        
+        
+        
+        
+        
+        // shot when key hold
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             gatlingIsFireing = true;
+            
+            
+            
+            
         }
+        
+        
         
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
@@ -135,8 +194,11 @@ public class playerController : MonoBehaviour
 
         if (gatlingIsFireing && gatlingFireTimer <= 0f)
         {
+            
             Instantiate(gatlingBullet, gatLingL.transform.position, gatLingL.transform.rotation);
             Instantiate(gatlingBullet, gatLingR.transform.position, gatLingR.transform.rotation);
+            
+
             //set timer
             gatlingFireTimer = 1f / gatlingFireRate;
             //play audio
@@ -151,15 +213,20 @@ public class playerController : MonoBehaviour
         if (gatlingFireTimer <= 0)
         {
             gatlingFireTimer = 0;
+            
+
         }
         
-        //shoot beam
-        if (Input.GetKeyDown(KeyCode.Mouse1) && beamFireCoolDown == 0)
-        {
-            Instantiate(beamBullet, beamHolder.transform.position, beamHolder.transform.rotation);
-            beamFireCoolDown = beamFireCoolDownMax;
-            beamHolder.GetComponent<BeamAudio>().BeamFireAudio();
-        }
+        
+        
+        //
+        // //shoot beam
+        // if (Input.GetKeyDown(KeyCode.Mouse1) && beamFireCoolDown == 0)
+        // {
+        //     Instantiate(beamBullet, beamHolder.transform.position, beamHolder.transform.rotation);
+        //     beamFireCoolDown = beamFireCoolDownMax;
+        //     beamHolder.GetComponent<BeamAudio>().BeamFireAudio();
+        // }
 
         if (beamFireCoolDown > 0)
         {
