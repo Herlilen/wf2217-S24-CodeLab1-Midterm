@@ -4,15 +4,19 @@ using System.Collections.Generic;
 using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.VFX;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
     public bool debugMode;
-    
+
+    public bool randomColor;
     public GameObject spaceTunnel;
     public GameObject CockpitBody;
+    public GameObject blackWalls;
+    public VisualEffect tunnelVFX;
     
     [Header("Game Status & Engine Start")] 
     [SerializeField] private GameObject playerHolder;
@@ -282,7 +286,9 @@ public class GameManager : MonoBehaviour
                 
                 
                 // vfx
-                spaceTunnel.SetActive(true);
+                //spaceTunnel.SetActive(true);
+                StartCoroutine(SetTunnel());
+                blackWalls.SetActive(true);
                 CockpitBody.SetActive(false);
                 
                 
@@ -322,6 +328,7 @@ public class GameManager : MonoBehaviour
                     //vfx
                     
                     CockpitBody.SetActive(true);
+                    blackWalls.SetActive(false);
                     spaceTunnel.SetActive(false);
                     
                     
@@ -410,5 +417,46 @@ public class GameManager : MonoBehaviour
                 }
             }
         }*/
+    }
+    
+    public IEnumerator SetActiveAfterSeconds(GameObject obj, float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        obj.SetActive(true);
+    }
+
+    public IEnumerator SetTunnel()
+    {
+        yield return new WaitForSeconds(5);
+        spaceTunnel.SetActive(true);
+        yield return new WaitForSeconds(3);
+        //set random color for the tunnel
+
+        if (randomColor)
+        {
+            Color baseColor = UnityEngine.Random.ColorHSV();
+            Color hdrColor = new Color(baseColor.r*3, baseColor.g*3, baseColor.b*3, 1);
+            tunnelVFX.SetVector4("Color_Particles" ,  hdrColor);
+            //tunnelVFX.SetGradient("Color_Particles" ,  gradient);
+            //set the color itencity to 3
+            
+        
+            yield return new WaitForSeconds(3);
+
+        
+            Color baseColor1 = UnityEngine.Random.ColorHSV();
+            Color hdrColor1 = new Color(baseColor1.r*3, baseColor1.g*3, baseColor1.b*3, 1);
+            tunnelVFX.SetVector4("Color_Particles" ,  hdrColor1);
+        
+            yield return new WaitForSeconds(3);
+        
+            Color baseColor2 = UnityEngine.Random.ColorHSV();
+            Color hdrColor2 = new Color(baseColor2.r*3, baseColor2.g*3, baseColor2.b*3, 1);
+            tunnelVFX.SetVector4("Color_Particles" ,  hdrColor2);
+
+
+        }
+
+        
     }
 }

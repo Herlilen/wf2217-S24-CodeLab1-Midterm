@@ -16,8 +16,11 @@ public class playerController : MonoBehaviour
     
     public GameObject rightBeam;
     public GameObject leftBeam;
-    
-    
+    public GameObject leftStartElectric;
+    public GameObject rightStartElectric;
+    public AudioSource LeftBeamFireAudio;
+    public AudioSource RightBeamFireAudio;
+    public AudioSource fireAudio;
     
     public static playerController instance;
     
@@ -141,6 +144,11 @@ public class playerController : MonoBehaviour
                 upEffect.SetActive(true);
                 
             }
+
+            if (Input.GetKeyDown(KeyCode.Mouse2))
+            {
+                fireAudio.Play();
+            }
             if (Input.GetKeyUp(KeyCode.Mouse2))
             {
                 upEffect.SetActive(false);
@@ -148,18 +156,17 @@ public class playerController : MonoBehaviour
                 upEffectFinal.SetActive(false);
                 upEffectFinal.SetActive(true);
                 
+                fireAudio.Stop();
             }
 
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                leftBeam.SetActive(false);
-                leftBeam.SetActive(true);
+                StartCoroutine(LeftFire());
             }
             
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
-                rightBeam.SetActive(false);
-                rightBeam.SetActive(true);
+                StartCoroutine(RightFire());
             }
 
             
@@ -412,5 +419,34 @@ public class playerController : MonoBehaviour
         {
             rollRotateSpeed *= 0.9f;
         }
+    }
+    
+    public IEnumerator LeftFire()
+    {
+
+        LeftBeamFireAudio.PlayOneShot( RightBeamFireAudio.clip);
+        yield return new WaitForSeconds(.5f);
+        leftStartElectric.SetActive(false);
+        leftStartElectric.SetActive(true);
+        yield return new WaitForSeconds(4.5f);
+        leftStartElectric.SetActive(false);
+        leftBeam.SetActive(false);
+        leftBeam.SetActive(true);
+        
+        
+    }
+    
+    public IEnumerator RightFire()
+    {
+        RightBeamFireAudio.PlayOneShot( RightBeamFireAudio.clip);
+        yield return new WaitForSeconds(.5f);
+        rightStartElectric.SetActive(false);
+        rightStartElectric.SetActive(true);
+        yield return new WaitForSeconds(4.5f);
+        rightStartElectric.SetActive(false);
+        rightBeam.SetActive(false);
+        rightBeam.SetActive(true);
+        
+        
     }
 }
