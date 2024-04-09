@@ -1,0 +1,17 @@
+{
+    "1712543801596828:3515960": {
+        "IResourceController": {
+            "name": "IKBackLeg.L_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801596827:3515959"
+        },
+        "IResourceManager": {
+            "uid": "1712543801596827:3515959",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

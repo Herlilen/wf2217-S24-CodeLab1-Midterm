@@ -1,0 +1,17 @@
+{
+    "1712542252206821:3176422": {
+        "IResourceController": {
+            "name": "Paired_Couple_ArmsAroundShoulder_Start_Att",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712542252206814:3176421"
+        },
+        "IResourceManager": {
+            "uid": "1712542252206814:3176421",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

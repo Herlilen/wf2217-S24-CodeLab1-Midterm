@@ -1,0 +1,79 @@
+{
+    "1712543561580004:3440476": {
+        "IFileManager": {
+            "path": "Files/File_1712543561580004_3440476.pvr"
+        }
+    },
+    "1712543561585767:3440477": {
+        "IResourceController": {
+            "name": "umbrella_sketchfab_gloss",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543561649864:3440488",
+            "fileId": "1712543561580004:3440476",
+            "originalId": "1712543561650954:3440493",
+            "publicId": "1712543561821343:3440520",
+            "expected_hash": "d5d9fd68712649de6279570265c7853b",
+            "additional": {
+                "originHash": "5ac8aac575f6a823cd8418ad9900c5c1"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1712543561649864:3440488",
+            "name": "Files/File_1712543561580004_3440476.png",
+            "flags": 1
+        }
+    },
+    "1712543561649864:3440488": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "5ac8aac575f6a823cd8418ad9900c5c1"
+                    },
+                    "v": "1712543642565806:3475796"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "524288",
+                "compressedSize": "281483",
+                "extension": "png",
+                "originalRAM": "4194304",
+                "originalSize": "843637",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1712543561660968:3440496"
+        }
+    },
+    "1712543561650954:3440493": {
+        "IFileManager": {
+            "path": "Files/File_1712543561650954_3440493.png"
+        }
+    },
+    "1712543561660968:3440496": {
+        "IFileManager": {
+            "path": "Files/File_1712543561660968_3440496.png"
+        }
+    },
+    "1712543561821343:3440520": {
+        "IResourceController": {
+            "public": {
+                "path": "umbrella/umbrella_sketchfab_gloss.png",
+                "hash": "5ac8aac575f6a823cd8418ad9900c5c1"
+            }
+        }
+    },
+    "1712543642565806:3475796": {
+        "IFileManager": {
+            "path": "Files/File_1712543642565806_3475796.pvr"
+        }
+    }
+}

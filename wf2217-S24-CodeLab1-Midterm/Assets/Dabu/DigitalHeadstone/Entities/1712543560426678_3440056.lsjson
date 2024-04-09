@@ -1,0 +1,39 @@
+{
+    "1712543560424589:3440055": {
+        "IFileManager": {
+            "path": "Files/File_1712543560424589_3440055"
+        }
+    },
+    "1712543560426678:3440056": {
+        "IResourceController": {
+            "name": "initialShadingGroup",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543560426684:3440057",
+            "fileId": "1712543560424589:3440055",
+            "originalId": "1712543560460747:3440066",
+            "publicId": "1712543561021051:3440218",
+            "expected_hash": "fe2215fccd1822e1558e7724957315d2"
+        },
+        "IResourceManager": {
+            "uid": "1712543560426684:3440057",
+            "name": "Files/File_1712543560424589_3440055",
+            "flags": 1
+        }
+    },
+    "1712543560460747:3440066": {
+        "IFileManager": {
+            "path": "Files/File_1712543560460747_3440066.lsmat"
+        }
+    },
+    "1712543561021051:3440218": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/umbrella/umbrella_sketchfab 2/Materials/initialShadingGroup.lsmat",
+                "hash": "0dcfa59cbcf103d1cbcbc5b36921feef"
+            }
+        }
+    }
+}

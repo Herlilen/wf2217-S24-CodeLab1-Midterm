@@ -1,0 +1,25 @@
+{
+    "1712542252209303:3176432": {
+        "IResourceController": {
+            "name": "Materials",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712542254278322:3177306",
+            "resources": [
+                "1712542252212434:3176434",
+                "1712542252816604:3176569",
+                "1712542253219305:3176660",
+                "1712542253602558:3176748"
+            ]
+        }
+    },
+    "1712542254278322:3177306": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/Paired_Couple_ArmsAroundShoulder_Start_Att/Materials"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "1712543764951183:3501789": {
+        "IResourceController": {
+            "name": "People9GLB",
+            "type": 12,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543764951061:3501741",
+            "fileId": "1712543764984176:3501835",
+            "originalId": "1712543887031395:3543240",
+            "expected_hash": "83730204f7221801c3937fc61172f1cb"
+        },
+        "IResourceManager": {
+            "uid": "1712543764951061:3501741",
+            "name": "GltfImport_0",
+            "flags": 0
+        }
+    },
+    "1712543764984176:3501835": {
+        "IFileManager": {
+            "path": "Files/File_1712543764984176_3501835.oprfb"
+        }
+    },
+    "1712543887031395:3543240": {
+        "IFileManager": {
+            "path": "Files/File_1712543887031395_3543240.oprfb"
+        }
+    }
+}

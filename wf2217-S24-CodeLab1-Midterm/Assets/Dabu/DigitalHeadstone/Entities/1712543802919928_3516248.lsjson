@@ -1,0 +1,66 @@
+{
+    "1712543802917627:3516245": {
+        "IFileManager": {
+            "path": "Files/File_1712543802917627_3516245.png"
+        }
+    },
+    "1712543802919928:3516248": {
+        "IResourceController": {
+            "name": "roughness",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543802920895:3516249",
+            "fileId": "1712543802917627:3516245",
+            "originalId": "1712543802921500:3516254",
+            "publicId": "1712543804433320:3518927",
+            "expected_hash": "54ba919d77dd5bb26bfc10a7a819f31f",
+            "additional": {
+                "originHash": "54ba919d77dd5bb26bfc10a7a819f31f"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1712543802920895:3516249",
+            "name": "Files/File_1712543802917627_3516245.jpg",
+            "flags": 1
+        }
+    },
+    "1712543802920895:3516249": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "infos": {
+                "compressedRAM": "16777216",
+                "compressedSize": "2440987",
+                "extension": "png",
+                "originalRAM": "16777216",
+                "originalSize": "2440987",
+                "settings": {
+                    "isCompressed": "false",
+                    "level": "0",
+                    "subtype": "9",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1712543802955104:3516260"
+        }
+    },
+    "1712543802921500:3516254": {
+        "IFileManager": {
+            "path": "Files/File_1712543802921500_3516254.png"
+        }
+    },
+    "1712543802955104:3516260": {
+        "IFileManager": {
+            "path": "Files/File_1712543802955104_3516260.png"
+        }
+    },
+    "1712543804433320:3518927": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/labrador-dog/source/Labrador/Textures/roughness.png",
+                "hash": "54ba919d77dd5bb26bfc10a7a819f31f"
+            }
+        }
+    }
+}

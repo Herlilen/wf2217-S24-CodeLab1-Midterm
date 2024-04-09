@@ -1,0 +1,50 @@
+{
+    "1712543793013458:3513650": {
+        "IResourceController": {
+            "name": "Labrador",
+            "type": 18,
+            "subtype": -1,
+            "dependency": 2,
+            "hidden": false,
+            "fileId": "1712543803633244:3518675",
+            "publicId": "1712543804342168:3518793",
+            "expected_hash": "20c2eded6bc2aac858776d644a086d4a",
+            "resources": [
+                "1712543801480358:3515257",
+                "1712543801563153:3515293",
+                "1712543801602470:3516084",
+                "1712543803053420:3516269",
+                "1712543803514137:3517521"
+            ],
+            "additional": {
+                "ImportParams": {
+                    "animationCurveOptimization": "true",
+                    "convertMetersToCentimeters": "true",
+                    "importMorphTargetAnimation": "true",
+                    "importTangents": "true",
+                    "importVertexColor": "true",
+                    "recalculateTangents": "false"
+                },
+                "materialMapping": [
+                    {
+                        "k": "material",
+                        "v": "1712543803056132:3516275"
+                    }
+                ]
+            }
+        }
+    },
+    "1712543803633244:3518675": {
+        "IFileManager": {
+            "path": "Files/File_1712543803633244_3518675.glb"
+        }
+    },
+    "1712543804342168:3518793": {
+        "IResourceController": {
+            "public": {
+                "path": "labrador-dog/source/Labrador.glb",
+                "hash": "20c2eded6bc2aac858776d644a086d4a"
+            }
+        }
+    }
+}

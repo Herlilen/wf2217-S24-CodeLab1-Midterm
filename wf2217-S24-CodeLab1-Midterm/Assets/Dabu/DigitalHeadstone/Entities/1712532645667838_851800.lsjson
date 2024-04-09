@@ -1,0 +1,25 @@
+{
+    "1712532645667838:851800": {
+        "IResourceController": {
+            "name": "WorldObjectController",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712532645668143:851801",
+            "resources": [
+                "1712532645668910:851802",
+                "1712532645715257:851825",
+                "1712532645776776:851846",
+                "1712532646009695:851890"
+            ]
+        }
+    },
+    "1712532645668143:851801": {
+        "IResourceController": {
+            "public": {
+                "path": "WorldObjectController"
+            }
+        }
+    }
+}

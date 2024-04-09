@@ -1,0 +1,25 @@
+{
+    "1712543804465309:3518935": {
+        "IResourceController": {
+            "name": "textures",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712543804465489:3518936",
+            "resources": [
+                "1712543804556773:3518953",
+                "1712543804949547:3519023",
+                "1712543805248669:3519078",
+                "1712543805300497:3519097"
+            ]
+        }
+    },
+    "1712543804465489:3518936": {
+        "IResourceController": {
+            "public": {
+                "path": "labrador-dog/textures"
+            }
+        }
+    }
+}

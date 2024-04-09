@@ -1,0 +1,41 @@
+{
+    "1712543549235889:3433263": {
+        "IResourceController": {
+            "name": "umbrella_sketchfab 2",
+            "type": 18,
+            "subtype": -1,
+            "dependency": 2,
+            "hidden": false,
+            "fileId": "1712543550071241:3433471",
+            "publicId": "1712543550108703:3433481",
+            "expected_hash": "7f06ba61810419cbf8be6d613bd4f741",
+            "resources": [
+                "1712543549336209:3433286",
+                "1712543549371296:3433307",
+                "1712543550027875:3433451"
+            ],
+            "additional": {
+                "ImportParams": "",
+                "materialMapping": [
+                    {
+                        "k": "initialShadingGroup",
+                        "v": "1712543549375815:3433310"
+                    }
+                ]
+            }
+        }
+    },
+    "1712543550071241:3433471": {
+        "IFileManager": {
+            "path": "Files/File_1712543550071241_3433471.obj"
+        }
+    },
+    "1712543550108703:3433481": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/Paired_Couple_ArmsAroundShoulder_Start_Vic/umbrella/umbrella_sketchfab 2.obj",
+                "hash": "7f06ba61810419cbf8be6d613bd4f741"
+            }
+        }
+    }
+}

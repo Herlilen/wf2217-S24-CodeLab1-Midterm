@@ -1,0 +1,23 @@
+{
+    "1712543679532576:3488633": {
+        "IResourceController": {
+            "name": "old-people",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712543679532816:3488634",
+            "resources": [
+                "1712543679534062:3488637",
+                "1712543765080424:3501920"
+            ]
+        }
+    },
+    "1712543679532816:3488634": {
+        "IResourceController": {
+            "public": {
+                "path": "old-people"
+            }
+        }
+    }
+}

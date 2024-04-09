@@ -1,0 +1,28 @@
+{
+    "1712543549183233:3433245": {
+        "IResourceController": {
+            "name": "umbrella",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712543549197023:3433249",
+            "resources": [
+                "1712543549215619:3433253",
+                "1712543549235889:3433263",
+                "1712543550163081:3433493",
+                "1712543550462189:3433705",
+                "1712543550700140:3433750",
+                "1712543550831464:3433780",
+                "1712543550953230:3433810"
+            ]
+        }
+    },
+    "1712543549197023:3433249": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/Paired_Couple_ArmsAroundShoulder_Start_Vic/umbrella"
+            }
+        }
+    }
+}

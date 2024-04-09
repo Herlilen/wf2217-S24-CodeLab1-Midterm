@@ -1,0 +1,79 @@
+{
+    "1712543550947004:3433809": {
+        "IFileManager": {
+            "path": "Files/File_1712543550947004_3433809.pvr"
+        }
+    },
+    "1712543550953230:3433810": {
+        "IResourceController": {
+            "name": "umbrella_sketchfab_specular",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543550958245:3433811",
+            "fileId": "1712543550947004:3433809",
+            "originalId": "1712543550958952:3433816",
+            "publicId": "1712543551003019:3433828",
+            "expected_hash": "f43ba928a8fc2b26ee7c93fa7936cfaa",
+            "additional": {
+                "originHash": "0567d90e045ece66923829573878edc7"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1712543550958245:3433811",
+            "name": "Files/File_1712543550947004_3433809.png",
+            "flags": 1
+        }
+    },
+    "1712543550958245:3433811": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "0567d90e045ece66923829573878edc7"
+                    },
+                    "v": "1712543601188552:3458641"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "524288",
+                "compressedSize": "52604",
+                "extension": "png",
+                "originalRAM": "4194304",
+                "originalSize": "160607",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1712543550972619:3433822"
+        }
+    },
+    "1712543550958952:3433816": {
+        "IFileManager": {
+            "path": "Files/File_1712543550958952_3433816.png"
+        }
+    },
+    "1712543550972619:3433822": {
+        "IFileManager": {
+            "path": "Files/File_1712543550972619_3433822.png"
+        }
+    },
+    "1712543551003019:3433828": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/Paired_Couple_ArmsAroundShoulder_Start_Vic/umbrella/umbrella_sketchfab_specular.png",
+                "hash": "0567d90e045ece66923829573878edc7"
+            }
+        }
+    },
+    "1712543601188552:3458641": {
+        "IFileManager": {
+            "path": "Files/File_1712543601188552_3458641.pvr"
+        }
+    }
+}

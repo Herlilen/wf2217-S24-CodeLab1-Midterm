@@ -1,0 +1,17 @@
+{
+    "1712543801572143:3515495": {
+        "IResourceController": {
+            "name": "Neck1_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801572142:3515494"
+        },
+        "IResourceManager": {
+            "uid": "1712543801572142:3515494",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

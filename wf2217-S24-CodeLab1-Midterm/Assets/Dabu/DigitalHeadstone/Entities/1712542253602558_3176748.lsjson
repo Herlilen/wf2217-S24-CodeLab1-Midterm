@@ -1,0 +1,39 @@
+{
+    "1712542253600590:3176745": {
+        "IFileManager": {
+            "path": "Files/File_1712542253600590_3176745"
+        }
+    },
+    "1712542253602558:3176748": {
+        "IResourceController": {
+            "name": "ribs",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712542253602564:3176749",
+            "fileId": "1712542253600590:3176745",
+            "originalId": "1712542253634865:3176758",
+            "publicId": "1712542254295530:3177312",
+            "expected_hash": "d9f476183f34b7013d4c658c014833c3"
+        },
+        "IResourceManager": {
+            "uid": "1712542253602564:3176749",
+            "name": "Files/File_1712542253600590_3176745",
+            "flags": 1
+        }
+    },
+    "1712542253634865:3176758": {
+        "IFileManager": {
+            "path": "Files/File_1712542253634865_3176758.lsmat"
+        }
+    },
+    "1712542254295530:3177312": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/Paired_Couple_ArmsAroundShoulder_Start_Att/Materials/ribs.lsmat",
+                "hash": "a97b3d42a7feead778ea9c71c9234111"
+            }
+        }
+    }
+}

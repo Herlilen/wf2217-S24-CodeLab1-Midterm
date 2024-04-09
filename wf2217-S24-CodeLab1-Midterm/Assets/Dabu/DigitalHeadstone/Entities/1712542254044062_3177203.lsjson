@@ -1,0 +1,30 @@
+{
+    "1712542254044062:3177203": {
+        "IResourceController": {
+            "name": "Paired_Couple_ArmsAroundShoulder_Start_Att",
+            "type": 12,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712542254041201:3177013",
+            "fileId": "1712542254106215:3177275",
+            "originalId": "1712543886811514:3543111",
+            "expected_hash": "a2c322ce9e4b7157867fe246e7f0d7b1"
+        },
+        "IResourceManager": {
+            "uid": "1712542254041201:3177013",
+            "name": "Paired_Couple_ArmsAroundShoulder_Start_Att",
+            "flags": 0
+        }
+    },
+    "1712542254106215:3177275": {
+        "IFileManager": {
+            "path": "Files/File_1712542254106215_3177275.oprfb"
+        }
+    },
+    "1712543886811514:3543111": {
+        "IFileManager": {
+            "path": "Files/File_1712543886811514_3543111.oprfb"
+        }
+    }
+}

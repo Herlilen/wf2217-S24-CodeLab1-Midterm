@@ -1,0 +1,23 @@
+{
+    "1712543793009194:3513646": {
+        "IResourceController": {
+            "name": "labrador-dog",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712543793009409:3513647",
+            "resources": [
+                "1712543793011602:3513648",
+                "1712543804465309:3518935"
+            ]
+        }
+    },
+    "1712543793009409:3513647": {
+        "IResourceController": {
+            "public": {
+                "path": "labrador-dog"
+            }
+        }
+    }
+}

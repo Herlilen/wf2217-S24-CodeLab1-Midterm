@@ -1,0 +1,17 @@
+{
+    "1712543801589556:3515750": {
+        "IResourceController": {
+            "name": "BackShoulder.R_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801589555:3515749"
+        },
+        "IResourceManager": {
+            "uid": "1712543801589555:3515749",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

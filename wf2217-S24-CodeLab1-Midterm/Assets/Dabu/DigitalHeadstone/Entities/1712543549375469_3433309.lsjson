@@ -1,0 +1,39 @@
+{
+    "1712543549371994:3433308": {
+        "IFileManager": {
+            "path": "Files/File_1712543549371994_3433308"
+        }
+    },
+    "1712543549375469:3433309": {
+        "IResourceController": {
+            "name": "initialShadingGroup",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543549375815:3433310",
+            "fileId": "1712543549371994:3433308",
+            "originalId": "1712543549426144:3433324",
+            "publicId": "1712543550121884:3433486",
+            "expected_hash": "fe2215fccd1822e1558e7724957315d2"
+        },
+        "IResourceManager": {
+            "uid": "1712543549375815:3433310",
+            "name": "Files/File_1712543549371994_3433308",
+            "flags": 1
+        }
+    },
+    "1712543549426144:3433324": {
+        "IFileManager": {
+            "path": "Files/File_1712543549426144_3433324.lsmat"
+        }
+    },
+    "1712543550121884:3433486": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/Paired_Couple_ArmsAroundShoulder_Start_Vic/umbrella/umbrella_sketchfab 2/Materials/initialShadingGroup.lsmat",
+                "hash": "90632bd99824d88311c68d46f60a2c26"
+            }
+        }
+    }
+}

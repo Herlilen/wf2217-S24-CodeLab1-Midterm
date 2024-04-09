@@ -1,0 +1,38 @@
+{
+    "1712535872507929:1759959": {
+        "IFileManager": {
+            "path": "Files/File_1712535872507929_1759959.js"
+        }
+    },
+    "1712535872511772:1759960": {
+        "IResourceController": {
+            "name": "RotationTest",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712535872511801:1759961",
+            "fileId": "1712535872507929:1759959",
+            "publicId": "1712535872526264:1759968",
+            "expected_hash": "f19afb9e35d15ab393e3ccd42b1f3b52"
+        },
+        "IResourceManager": {
+            "uid": "1712535872511801:1759961",
+            "name": "Files/File_1712535872507929_1759959.js",
+            "flags": 1
+        }
+    },
+    "1712535872511801:1759961": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1712535872526264:1759968": {
+        "IResourceController": {
+            "public": {
+                "path": "RotationTest.js",
+                "hash": "f19afb9e35d15ab393e3ccd42b1f3b52"
+            }
+        }
+    }
+}

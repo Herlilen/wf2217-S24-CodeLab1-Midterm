@@ -1,0 +1,24 @@
+{
+    "1712532646535155:852142": {
+        "IResourceController": {
+            "name": "Textures",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712532646535383:852143",
+            "resources": [
+                "1712532646515986:852128",
+                "1712532646572004:852150",
+                "1712532646645062:852170"
+            ]
+        }
+    },
+    "1712532646535383:852143": {
+        "IResourceController": {
+            "public": {
+                "path": "Red_Panda_FBX [REMOVE_ME]/Textures"
+            }
+        }
+    }
+}

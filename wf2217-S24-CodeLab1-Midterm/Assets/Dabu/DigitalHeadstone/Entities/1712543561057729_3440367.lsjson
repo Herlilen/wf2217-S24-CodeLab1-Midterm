@@ -1,0 +1,79 @@
+{
+    "1712543561047461:3440312": {
+        "IFileManager": {
+            "path": "Files/File_1712543561047461_3440312.pvr"
+        }
+    },
+    "1712543561057729:3440367": {
+        "IResourceController": {
+            "name": "Umbrella_sketchfab_albedo",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543561065737:3440378",
+            "fileId": "1712543561047461:3440312",
+            "originalId": "1712543561069549:3440385",
+            "publicId": "1712543561325594:3440425",
+            "expected_hash": "20b7251f6b71a07868b78da3f5e007f9",
+            "additional": {
+                "originHash": "21cf2851f78ce29087a295dfab852186"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1712543561065737:3440378",
+            "name": "Files/File_1712543561047461_3440312.png",
+            "flags": 1
+        }
+    },
+    "1712543561065737:3440378": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "21cf2851f78ce29087a295dfab852186"
+                    },
+                    "v": "1712543615151064:3466823"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "524288",
+                "compressedSize": "143676",
+                "extension": "png",
+                "originalRAM": "4194304",
+                "originalSize": "640672",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1712543561093087:3440389"
+        }
+    },
+    "1712543561069549:3440385": {
+        "IFileManager": {
+            "path": "Files/File_1712543561069549_3440385.png"
+        }
+    },
+    "1712543561093087:3440389": {
+        "IFileManager": {
+            "path": "Files/File_1712543561093087_3440389.png"
+        }
+    },
+    "1712543561325594:3440425": {
+        "IResourceController": {
+            "public": {
+                "path": "umbrella/Umbrella_sketchfab_albedo.png",
+                "hash": "21cf2851f78ce29087a295dfab852186"
+            }
+        }
+    },
+    "1712543615151064:3466823": {
+        "IFileManager": {
+            "path": "Files/File_1712543615151064_3466823.pvr"
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "1712543804549092:3518952": {
+        "IFileManager": {
+            "path": "Files/File_1712543804549092_3518952.pvr"
+        }
+    },
+    "1712543804556773:3518953": {
+        "IResourceController": {
+            "name": "Image_0_1",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543804569255:3518956",
+            "fileId": "1712543804549092:3518952",
+            "originalId": "1712543804574600:3518964",
+            "publicId": "1712543804849609:3519006",
+            "expected_hash": "fef8809fcf5ad5a612ed4851db7c91ca",
+            "additional": {
+                "originHash": "44f2296e585d44150c9de76b35e0d327"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1712543804569255:3518956",
+            "name": "Files/File_1712543804549092_3518952.png",
+            "flags": 1
+        }
+    },
+    "1712543804569255:3518956": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "44f2296e585d44150c9de76b35e0d327"
+                    },
+                    "v": "1712543877310782:3537716"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "2097152",
+                "compressedSize": "1608370",
+                "extension": "png",
+                "originalRAM": "16777216",
+                "originalSize": "6404200",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1712543804661430:3518975"
+        }
+    },
+    "1712543804574600:3518964": {
+        "IFileManager": {
+            "path": "Files/File_1712543804574600_3518964.png"
+        }
+    },
+    "1712543804661430:3518975": {
+        "IFileManager": {
+            "path": "Files/File_1712543804661430_3518975.png"
+        }
+    },
+    "1712543804849609:3519006": {
+        "IResourceController": {
+            "public": {
+                "path": "labrador-dog/textures/Image_0_1.png",
+                "hash": "44f2296e585d44150c9de76b35e0d327"
+            }
+        }
+    },
+    "1712543877310782:3537716": {
+        "IFileManager": {
+            "path": "Files/File_1712543877310782_3537716.pvr"
+        }
+    }
+}

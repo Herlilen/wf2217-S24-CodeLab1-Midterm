@@ -1,0 +1,30 @@
+{
+    "1712542301968006:3193265": {
+        "IResourceController": {
+            "name": "Paired_Couple_ArmsAroundShoulder_Start_Vic",
+            "type": 12,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712542301967593:3193075",
+            "fileId": "1712542302001261:3193332",
+            "originalId": "1712543886875768:3543170",
+            "expected_hash": "f9daba1e48aa1b3a8e733b5b22d49f21"
+        },
+        "IResourceManager": {
+            "uid": "1712542301967593:3193075",
+            "name": "Paired_Couple_ArmsAroundShoulder_Start_Vic",
+            "flags": 0
+        }
+    },
+    "1712542302001261:3193332": {
+        "IFileManager": {
+            "path": "Files/File_1712542302001261_3193332.oprfb"
+        }
+    },
+    "1712543886875768:3543170": {
+        "IFileManager": {
+            "path": "Files/File_1712543886875768_3543170.oprfb"
+        }
+    }
+}

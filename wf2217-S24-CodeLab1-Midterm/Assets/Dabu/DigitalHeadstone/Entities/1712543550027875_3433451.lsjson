@@ -1,0 +1,30 @@
+{
+    "1712543550027875:3433451": {
+        "IResourceController": {
+            "name": "umbrella_sketchfab",
+            "type": 12,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543550026391:3433438",
+            "fileId": "1712543550066681:3433470",
+            "originalId": "1712543886928541:3543188",
+            "expected_hash": "1f54a33c336a055faa082beab59ed0f1"
+        },
+        "IResourceManager": {
+            "uid": "1712543550026391:3433438",
+            "name": "umbrella_sketchfab",
+            "flags": 0
+        }
+    },
+    "1712543550066681:3433470": {
+        "IFileManager": {
+            "path": "Files/File_1712543550066681_3433470.oprfb"
+        }
+    },
+    "1712543886928541:3543188": {
+        "IFileManager": {
+            "path": "Files/File_1712543886928541_3543188.oprfb"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "1712532646745138:852573": {
+        "IResourceController": {
+            "name": "right_foot_JNT",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712532646745137:852572"
+        },
+        "IResourceManager": {
+            "uid": "1712532646745137:852572",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

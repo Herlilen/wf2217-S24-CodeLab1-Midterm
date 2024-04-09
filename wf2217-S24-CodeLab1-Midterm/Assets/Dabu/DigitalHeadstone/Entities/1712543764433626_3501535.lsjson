@@ -1,0 +1,22 @@
+{
+    "1712543764433626:3501535": {
+        "IResourceController": {
+            "name": "Materials",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712543765063062:3501858",
+            "resources": [
+                "1712543764435849:3501537"
+            ]
+        }
+    },
+    "1712543765063062:3501858": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/old-people/source/People9GLB/Materials"
+            }
+        }
+    }
+}

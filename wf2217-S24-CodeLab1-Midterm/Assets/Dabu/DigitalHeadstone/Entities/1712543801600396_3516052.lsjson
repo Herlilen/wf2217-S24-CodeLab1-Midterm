@@ -1,0 +1,17 @@
+{
+    "1712543801600396:3516052": {
+        "IResourceController": {
+            "name": "IKFrontLeg.R_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801600395:3516051"
+        },
+        "IResourceManager": {
+            "uid": "1712543801600395:3516051",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

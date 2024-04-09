@@ -1,0 +1,22 @@
+{
+    "1712543765080424:3501920": {
+        "IResourceController": {
+            "name": "textures",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712543765080622:3501922",
+            "resources": [
+                "1712543765090038:3501955"
+            ]
+        }
+    },
+    "1712543765080622:3501922": {
+        "IResourceController": {
+            "public": {
+                "path": "old-people/textures"
+            }
+        }
+    }
+}

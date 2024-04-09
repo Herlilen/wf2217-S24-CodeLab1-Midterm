@@ -1,0 +1,33 @@
+{
+    "1712539068092310:2432361": {
+        "IFileManager": {
+            "path": "Files/File_1712539068092310_2432361.ttf"
+        }
+    },
+    "1712539068096488:2432362": {
+        "IResourceController": {
+            "name": "Cat Comic 2",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712539068096509:2432363",
+            "fileId": "1712539068092310:2432361",
+            "publicId": "1712539068098669:2432368",
+            "expected_hash": "d1a9a480774272e4f6fb71451415521a"
+        },
+        "IResourceManager": {
+            "uid": "1712539068096509:2432363",
+            "name": "Files/File_1712539068092310_2432361.ttf",
+            "flags": 1
+        }
+    },
+    "1712539068098669:2432368": {
+        "IResourceController": {
+            "public": {
+                "path": "Cat Comic 2.ttf",
+                "hash": "d1a9a480774272e4f6fb71451415521a"
+            }
+        }
+    }
+}

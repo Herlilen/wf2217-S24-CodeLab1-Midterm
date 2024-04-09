@@ -1,0 +1,80 @@
+{
+    "1712532646512544:852127": {
+        "IFileManager": {
+            "path": "Files/File_1712532646512544_852127.pvr"
+        }
+    },
+    "1712532646515986:852128": {
+        "IResourceController": {
+            "name": "red_panda_base",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712532646516931:852129",
+            "fileId": "1712532646512544:852127",
+            "originalId": "1712532646517478:852134",
+            "publicId": "1712532646555962:852145",
+            "expected_hash": "dd7ec6230695b1949f61bd1a5cb0bcd8",
+            "additional": {
+                "originHash": "cfb995f6f6bdb951ea945c298701ad69",
+                "subtype": "9"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1712532646516931:852129",
+            "name": "Files/File_1712532646512544_852127.jpg",
+            "flags": 1
+        }
+    },
+    "1712532646516931:852129": {
+        "Compression::IController": {
+            "compressed_files": [
+                {
+                    "k": {
+                        "settings_hash": "2049",
+                        "uncompressed_hash": "cfb995f6f6bdb951ea945c298701ad69"
+                    },
+                    "v": "1712532674955208:860377"
+                }
+            ],
+            "infos": {
+                "compressedRAM": "2097152",
+                "compressedSize": "57588",
+                "extension": "png",
+                "originalRAM": "16777216",
+                "originalSize": "55715",
+                "settings": {
+                    "isCompressed": "true",
+                    "level": "2",
+                    "subtype": "9",
+                    "type": "1"
+                }
+            },
+            "uncompressed_file": "1712532646537219:852144"
+        }
+    },
+    "1712532646517478:852134": {
+        "IFileManager": {
+            "path": "Files/File_1712532646517478_852134.png"
+        }
+    },
+    "1712532646537219:852144": {
+        "IFileManager": {
+            "path": "Files/File_1712532646537219_852144.png"
+        }
+    },
+    "1712532646555962:852145": {
+        "IResourceController": {
+            "public": {
+                "path": "Red_Panda_FBX [REMOVE_ME]/Textures/red_panda_base.png",
+                "hash": "cfb995f6f6bdb951ea945c298701ad69"
+            }
+        }
+    },
+    "1712532674955208:860377": {
+        "IFileManager": {
+            "path": "Files/File_1712532674955208_860377.pvr"
+        }
+    }
+}

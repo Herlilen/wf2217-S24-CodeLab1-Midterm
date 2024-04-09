@@ -1,0 +1,63 @@
+{
+    "1712542249725590:3175910": {
+        "IResourceController": {
+            "name": "Paired_Couple_ArmsAroundShoulder_Start_Att",
+            "type": 18,
+            "subtype": -1,
+            "dependency": 2,
+            "hidden": false,
+            "fileId": "1712542254135128:3177281",
+            "publicId": "1712542254257016:3177300",
+            "expected_hash": "6e1afed73e8a458b03c07dd327de1feb",
+            "resources": [
+                "1712542252083627:3176350",
+                "1712542252205741:3176420",
+                "1712542252209303:3176432",
+                "1712542254044062:3177203"
+            ],
+            "additional": {
+                "ImportParams": {
+                    "animationCurveOptimization": "true",
+                    "generatePivots": "true",
+                    "importBlendShapeAnimation": "true",
+                    "importTangents": "true",
+                    "importVertexAnimation": "true",
+                    "importVertexColor": "true",
+                    "recalculateTangents": "false",
+                    "regenerateNormalsForSkinned": "true"
+                },
+                "materialMapping": [
+                    {
+                        "k": "Body",
+                        "v": "1712542252212440:3176435"
+                    },
+                    {
+                        "k": "Cables",
+                        "v": "1712542252816609:3176570"
+                    },
+                    {
+                        "k": "Head",
+                        "v": "1712542253219310:3176661"
+                    },
+                    {
+                        "k": "ribs",
+                        "v": "1712542253602564:3176749"
+                    }
+                ]
+            }
+        }
+    },
+    "1712542254135128:3177281": {
+        "IFileManager": {
+            "path": "Files/File_1712542254135128_3177281.fbx"
+        }
+    },
+    "1712542254257016:3177300": {
+        "IResourceController": {
+            "public": {
+                "path": "Paired_Couple_ArmsAroundShoulder_Start_Att.fbx",
+                "hash": "6e1afed73e8a458b03c07dd327de1feb"
+            }
+        }
+    }
+}

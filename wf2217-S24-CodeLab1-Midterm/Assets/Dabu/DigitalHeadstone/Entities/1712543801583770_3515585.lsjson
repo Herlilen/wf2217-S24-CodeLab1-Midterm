@@ -1,0 +1,17 @@
+{
+    "1712543801583770:3515585": {
+        "IResourceController": {
+            "name": "FrontUpperLeg.R_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801583769:3515584"
+        },
+        "IResourceManager": {
+            "uid": "1712543801583769:3515584",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

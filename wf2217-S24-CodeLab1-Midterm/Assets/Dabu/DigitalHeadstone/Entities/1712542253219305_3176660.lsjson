@@ -1,0 +1,39 @@
+{
+    "1712542253217706:3176659": {
+        "IFileManager": {
+            "path": "Files/File_1712542253217706_3176659"
+        }
+    },
+    "1712542253219305:3176660": {
+        "IResourceController": {
+            "name": "Head",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712542253219310:3176661",
+            "fileId": "1712542253217706:3176659",
+            "originalId": "1712542253262428:3176670",
+            "publicId": "1712542254290518:3177309",
+            "expected_hash": "d9f476183f34b7013d4c658c014833c3"
+        },
+        "IResourceManager": {
+            "uid": "1712542253219310:3176661",
+            "name": "Files/File_1712542253217706_3176659",
+            "flags": 1
+        }
+    },
+    "1712542253262428:3176670": {
+        "IFileManager": {
+            "path": "Files/File_1712542253262428_3176670.lsmat"
+        }
+    },
+    "1712542254290518:3177309": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/Paired_Couple_ArmsAroundShoulder_Start_Att/Materials/Head.lsmat",
+                "hash": "9dabcd978d7e9c68a55f1b5a90ce81c6"
+            }
+        }
+    }
+}

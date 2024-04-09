@@ -1,0 +1,17 @@
+{
+    "1712543801592603:3515855": {
+        "IResourceController": {
+            "name": "Back_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801592602:3515854"
+        },
+        "IResourceManager": {
+            "uid": "1712543801592602:3515854",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

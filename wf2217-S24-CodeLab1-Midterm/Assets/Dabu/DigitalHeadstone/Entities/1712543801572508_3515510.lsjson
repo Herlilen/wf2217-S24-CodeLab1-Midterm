@@ -1,0 +1,17 @@
+{
+    "1712543801572508:3515510": {
+        "IResourceController": {
+            "name": "Torso3_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801572507:3515509"
+        },
+        "IResourceManager": {
+            "uid": "1712543801572507:3515509",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

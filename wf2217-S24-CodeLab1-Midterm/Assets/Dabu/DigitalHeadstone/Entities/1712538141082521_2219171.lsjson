@@ -1,0 +1,33 @@
+{
+    "1712538141062173:2219165": {
+        "IFileManager": {
+            "path": "Files/File_1712538141062173_2219165.mp3"
+        }
+    },
+    "1712538141082521:2219171": {
+        "IResourceController": {
+            "name": "03 Stan",
+            "type": 5,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712538141082579:2219172",
+            "fileId": "1712538141062173:2219165",
+            "publicId": "1712538141090391:2219177",
+            "expected_hash": "0f34689f8c06f1c93bcd773bc3bf6a67"
+        },
+        "IResourceManager": {
+            "uid": "1712538141082579:2219172",
+            "name": "Files/File_1712538141062173_2219165.mp3",
+            "flags": 1
+        }
+    },
+    "1712538141090391:2219177": {
+        "IResourceController": {
+            "public": {
+                "path": "03 Stan.mp3",
+                "hash": "0f34689f8c06f1c93bcd773bc3bf6a67"
+            }
+        }
+    }
+}

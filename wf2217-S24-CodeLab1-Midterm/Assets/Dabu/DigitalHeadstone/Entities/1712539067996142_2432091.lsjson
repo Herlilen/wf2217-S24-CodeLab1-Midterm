@@ -1,0 +1,33 @@
+{
+    "1712539067991919:2432090": {
+        "IFileManager": {
+            "path": "Files/File_1712539067991919_2432090.otf"
+        }
+    },
+    "1712539067996142:2432091": {
+        "IResourceController": {
+            "name": "Cat Comic",
+            "type": 13,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712539067998709:2432092",
+            "fileId": "1712539067991919:2432090",
+            "publicId": "1712539068003704:2432097",
+            "expected_hash": "5a3c929fc45364266230aef2a9ceb7c6"
+        },
+        "IResourceManager": {
+            "uid": "1712539067998709:2432092",
+            "name": "Files/File_1712539067991919_2432090.otf",
+            "flags": 1
+        }
+    },
+    "1712539068003704:2432097": {
+        "IResourceController": {
+            "public": {
+                "path": "Cat Comic.otf",
+                "hash": "5a3c929fc45364266230aef2a9ceb7c6"
+            }
+        }
+    }
+}

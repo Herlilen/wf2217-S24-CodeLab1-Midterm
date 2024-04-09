@@ -1,0 +1,17 @@
+{
+    "1712543801588772:3515720": {
+        "IResourceController": {
+            "name": "BackUpperLeg.R_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801588771:3515719"
+        },
+        "IResourceManager": {
+            "uid": "1712543801588771:3515719",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

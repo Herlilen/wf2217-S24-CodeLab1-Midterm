@@ -1,0 +1,72 @@
+{
+    "1712532168038622:776861": {
+        "IFileManager": {
+            "path": "Files/File_1712532168038622_776861.jpg"
+        }
+    },
+    "1712532168050831:776862": {
+        "IResourceController": {
+            "name": "Vinyl",
+            "type": 1,
+            "subtype": 9,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712532168056858:776863",
+            "fileId": "1712532168038622:776861",
+            "originalId": "1712532168057339:776868",
+            "publicId": "1712532168093925:776875",
+            "expected_hash": "cda533addfd0f3fbc2cd26de2ab3aa77",
+            "additional": {
+                "originHash": "cda533addfd0f3fbc2cd26de2ab3aa77"
+            }
+        },
+        "IResourceManager": {
+            "uid": "1712532168056858:776863",
+            "name": "Files/File_1712532168038622_776861.jpg",
+            "flags": 1
+        }
+    },
+    "1712532168056858:776863": {
+        "Compression::IController": {
+            "compressed_files": "",
+            "desiredSettings": {
+                "isCompressed": "true",
+                "level": "2",
+                "subtype": "9",
+                "type": "1"
+            },
+            "infos": {
+                "compressedRAM": "422436",
+                "compressedSize": "63082",
+                "extension": "jpg",
+                "originalRAM": "422436",
+                "originalSize": "63082",
+                "settings": {
+                    "isCompressed": "false",
+                    "level": "0",
+                    "subtype": "9",
+                    "type": "0"
+                }
+            },
+            "uncompressed_file": "1712532168063761:776871"
+        }
+    },
+    "1712532168057339:776868": {
+        "IFileManager": {
+            "path": "Files/File_1712532168057339_776868.jpg"
+        }
+    },
+    "1712532168063761:776871": {
+        "IFileManager": {
+            "path": "Files/File_1712532168063761_776871.jpg"
+        }
+    },
+    "1712532168093925:776875": {
+        "IResourceController": {
+            "public": {
+                "path": "Vinyl.jpg",
+                "hash": "cda533addfd0f3fbc2cd26de2ab3aa77"
+            }
+        }
+    }
+}

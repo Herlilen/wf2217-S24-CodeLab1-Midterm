@@ -1,0 +1,38 @@
+{
+    "1712532828449991:933510": {
+        "IFileManager": {
+            "path": "Files/File_1712532828449991_933510.js"
+        }
+    },
+    "1712532828452165:933511": {
+        "IResourceController": {
+            "name": "RemoveTween",
+            "type": 4,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712532828452181:933512",
+            "fileId": "1712532828449991:933510",
+            "publicId": "1712532828459492:933526",
+            "expected_hash": "e4d40aee7627ecedf24b57a9dbfa91be"
+        },
+        "IResourceManager": {
+            "uid": "1712532828452181:933512",
+            "name": "Files/File_1712532828449991_933510.js",
+            "flags": 1
+        }
+    },
+    "1712532828452181:933512": {
+        "ScriptModulesController": {
+            "dependent_module_names": []
+        }
+    },
+    "1712532828459492:933526": {
+        "IResourceController": {
+            "public": {
+                "path": "Tween/Visual Scripting Custom Nodes/Tween Nodes/Modifiers/RemoveTween.js",
+                "hash": "e4d40aee7627ecedf24b57a9dbfa91be"
+            }
+        }
+    }
+}

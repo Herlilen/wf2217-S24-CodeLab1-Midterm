@@ -1,0 +1,17 @@
+{
+    "1712543801593424:3515885": {
+        "IResourceController": {
+            "name": "PoleTarget.L_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801593424:3515884"
+        },
+        "IResourceManager": {
+            "uid": "1712543801593424:3515884",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "1712543801598142:3516006": {
+        "IResourceController": {
+            "name": "FFB.R_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801598141:3516005"
+        },
+        "IResourceManager": {
+            "uid": "1712543801598141:3516005",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

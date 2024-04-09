@@ -1,0 +1,17 @@
+{
+    "1712543801592212:3515840": {
+        "IResourceController": {
+            "name": "Tail1_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801592212:3515839"
+        },
+        "IResourceManager": {
+            "uid": "1712543801592212:3515839",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

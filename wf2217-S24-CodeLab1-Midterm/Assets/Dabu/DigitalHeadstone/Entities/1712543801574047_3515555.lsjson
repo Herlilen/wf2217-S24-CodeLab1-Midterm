@@ -1,0 +1,17 @@
+{
+    "1712543801574047:3515555": {
+        "IResourceController": {
+            "name": "FrontShoulder.L_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801574046:3515554"
+        },
+        "IResourceManager": {
+            "uid": "1712543801574046:3515554",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

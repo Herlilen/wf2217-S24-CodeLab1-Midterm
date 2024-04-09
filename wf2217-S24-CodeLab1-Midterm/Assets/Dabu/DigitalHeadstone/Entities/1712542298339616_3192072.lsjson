@@ -1,0 +1,64 @@
+{
+    "1712542298339616:3192072": {
+        "IResourceController": {
+            "name": "Paired_Couple_ArmsAroundShoulder_Start_Vic",
+            "type": 18,
+            "subtype": -1,
+            "dependency": 2,
+            "hidden": false,
+            "fileId": "1712542302024834:3193338",
+            "publicId": "1712542302133890:3193362",
+            "expected_hash": "a882b6dbba0c2077102abb94fc0d907f",
+            "resources": [
+                "1712542300061207:3192427",
+                "1712542300175971:3192497",
+                "1712542300176463:3192509",
+                "1712542301968006:3193265",
+                "1712543549183233:3433245"
+            ],
+            "additional": {
+                "ImportParams": {
+                    "animationCurveOptimization": "true",
+                    "generatePivots": "true",
+                    "importBlendShapeAnimation": "true",
+                    "importTangents": "true",
+                    "importVertexAnimation": "true",
+                    "importVertexColor": "true",
+                    "recalculateTangents": "false",
+                    "regenerateNormalsForSkinned": "true"
+                },
+                "materialMapping": [
+                    {
+                        "k": "Body",
+                        "v": "1712542300178596:3192512"
+                    },
+                    {
+                        "k": "Cables",
+                        "v": "1712542300730820:3192634"
+                    },
+                    {
+                        "k": "Head",
+                        "v": "1712542301141656:3192728"
+                    },
+                    {
+                        "k": "ribs",
+                        "v": "1712542301534602:3192819"
+                    }
+                ]
+            }
+        }
+    },
+    "1712542302024834:3193338": {
+        "IFileManager": {
+            "path": "Files/File_1712542302024834_3193338.fbx"
+        }
+    },
+    "1712542302133890:3193362": {
+        "IResourceController": {
+            "public": {
+                "path": "Paired_Couple_ArmsAroundShoulder_Start_Vic.fbx",
+                "hash": "a882b6dbba0c2077102abb94fc0d907f"
+            }
+        }
+    }
+}

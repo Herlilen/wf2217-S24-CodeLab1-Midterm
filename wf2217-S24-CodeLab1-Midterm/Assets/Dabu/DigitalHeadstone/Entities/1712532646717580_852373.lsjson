@@ -1,0 +1,17 @@
+{
+    "1712532646717580:852373": {
+        "IResourceController": {
+            "name": "left_l_arm_JNT",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712532646717578:852372"
+        },
+        "IResourceManager": {
+            "uid": "1712532646717578:852372",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

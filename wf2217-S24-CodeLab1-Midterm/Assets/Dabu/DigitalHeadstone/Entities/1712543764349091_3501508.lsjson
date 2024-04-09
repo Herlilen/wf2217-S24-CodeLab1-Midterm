@@ -1,0 +1,22 @@
+{
+    "1712543764349091:3501508": {
+        "IResourceController": {
+            "name": "Textures",
+            "type": 0,
+            "subtype": -1,
+            "dependency": 0,
+            "hidden": false,
+            "publicId": "1712543765059988:3501856",
+            "resources": [
+                "1712543764412423:3501517"
+            ]
+        }
+    },
+    "1712543765059988:3501856": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/old-people/source/People9GLB/Textures"
+            }
+        }
+    }
+}

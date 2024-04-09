@@ -1,0 +1,41 @@
+{
+    "1712543560330947:3440015": {
+        "IResourceController": {
+            "name": "umbrella_sketchfab 2",
+            "type": 18,
+            "subtype": -1,
+            "dependency": 2,
+            "hidden": false,
+            "fileId": "1712543560981987:3440208",
+            "publicId": "1712543561006086:3440216",
+            "expected_hash": "7f06ba61810419cbf8be6d613bd4f741",
+            "resources": [
+                "1712543560393925:3440033",
+                "1712543560423841:3440054",
+                "1712543560940085:3440188"
+            ],
+            "additional": {
+                "ImportParams": "",
+                "materialMapping": [
+                    {
+                        "k": "initialShadingGroup",
+                        "v": "1712543560426684:3440057"
+                    }
+                ]
+            }
+        }
+    },
+    "1712543560981987:3440208": {
+        "IFileManager": {
+            "path": "Files/File_1712543560981987_3440208.obj"
+        }
+    },
+    "1712543561006086:3440216": {
+        "IResourceController": {
+            "public": {
+                "path": "umbrella/umbrella_sketchfab 2.obj",
+                "hash": "7f06ba61810419cbf8be6d613bd4f741"
+            }
+        }
+    }
+}

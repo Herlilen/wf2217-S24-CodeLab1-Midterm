@@ -1,0 +1,17 @@
+{
+    "1712543801566911:3515327": {
+        "IResourceController": {
+            "name": "Ear3.L_",
+            "type": 8,
+            "subtype": 0,
+            "dependency": 1,
+            "hidden": false,
+            "uid": "1712543801566910:3515326"
+        },
+        "IResourceManager": {
+            "uid": "1712543801566910:3515326",
+            "name": "",
+            "flags": 0
+        }
+    }
+}

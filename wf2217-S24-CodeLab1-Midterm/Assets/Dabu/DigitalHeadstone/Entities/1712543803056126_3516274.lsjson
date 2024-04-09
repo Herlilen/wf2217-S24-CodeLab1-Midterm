@@ -1,0 +1,39 @@
+{
+    "1712543803054121:3516273": {
+        "IFileManager": {
+            "path": "Files/File_1712543803054121_3516273"
+        }
+    },
+    "1712543803056126:3516274": {
+        "IResourceController": {
+            "name": "material",
+            "type": 2,
+            "subtype": 1,
+            "dependency": 0,
+            "hidden": false,
+            "uid": "1712543803056132:3516275",
+            "fileId": "1712543803054121:3516273",
+            "originalId": "1712543803087589:3516284",
+            "publicId": "1712543804444421:3518934",
+            "expected_hash": "20b64ecbdcf7e2b82c0aa29038627025"
+        },
+        "IResourceManager": {
+            "uid": "1712543803056132:3516275",
+            "name": "Files/File_1712543803054121_3516273",
+            "flags": 1
+        }
+    },
+    "1712543803087589:3516284": {
+        "IFileManager": {
+            "path": "Files/File_1712543803087589_3516284.lsmat"
+        }
+    },
+    "1712543804444421:3518934": {
+        "IResourceController": {
+            "public": {
+                "path": "../AdditionalFiles/labrador-dog/source/Labrador/Materials/material.lsmat",
+                "hash": "1009734991f4b534aea0addb9f2cee1a"
+            }
+        }
+    }
+}
