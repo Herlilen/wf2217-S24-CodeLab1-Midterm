@@ -162,10 +162,10 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 2660
-    y: 1533
-    width: 2232
-    height: 2230
+    x: 0
+    y: 0
+    width: 4869
+    height: 3739
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8848,7 +8848,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616771}
   m_ExposedName: ImpactPosition
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 17
   m_Category: 
   m_Min:
     m_Type:
@@ -9022,7 +9022,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616776}
   m_ExposedName: ImpactDelay
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 18
   m_Category: 
   m_Min:
     m_Type:
@@ -9094,7 +9094,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616778}
   m_ExposedName: Duration 1
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 19
   m_Category: 
   m_Min:
     m_Type:
@@ -9166,7 +9166,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616780}
   m_ExposedName: ImpactRingTexture
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 20
   m_Category: 
   m_Min:
     m_Type:
@@ -9238,7 +9238,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616782}
   m_ExposedName: ImpactRingRate
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 21
   m_Category: 
   m_Min:
     m_Type:
@@ -9310,7 +9310,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616784}
   m_ExposedName: ImpactRingLifetime
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 22
   m_Category: 
   m_Min:
     m_Type:
@@ -9382,7 +9382,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616786}
   m_ExposedName: ImpactRingSize
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 23
   m_Category: 
   m_Min:
     m_Type:
@@ -10523,7 +10523,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617100}
   m_ExposedName: ParticlesRate
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 24
   m_Category: 
   m_Min:
     m_Type:
@@ -10603,7 +10603,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617102}
   m_ExposedName: ParticlesRadius
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 25
   m_Category: 
   m_Min:
     m_Type:
@@ -10675,7 +10675,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617104}
   m_ExposedName: ParticlesVelocity
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 26
   m_Category: 
   m_Min:
     m_Type:
@@ -10864,7 +10864,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617109}
   m_ExposedName: ParticlesLifetime
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 27
   m_Category: 
   m_Min:
     m_Type:
@@ -10936,7 +10936,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617111}
   m_ExposedName: Duration 2
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 28
   m_Category: 
   m_Min:
     m_Type:
@@ -11024,7 +11024,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617113}
   m_ExposedName: ParticlesSize
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 29
   m_Category: 
   m_Min:
     m_Type:
@@ -11104,7 +11104,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617115}
   m_ExposedName: ParticlesScale
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 30
   m_Category: 
   m_Min:
     m_Type:
@@ -11286,7 +11286,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617120}
   m_ExposedName: ParticlesColor
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 31
   m_Category: 
   m_Min:
     m_Type:
@@ -11499,7 +11499,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617126}
   m_ExposedName: ParticlesTexture
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 32
   m_Category: 
   m_Min:
     m_Type:
@@ -11576,7 +11576,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617128}
   m_ExposedName: ParticlesTrubulenceIntensity
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 33
   m_Category: 
   m_Min:
     m_Type:

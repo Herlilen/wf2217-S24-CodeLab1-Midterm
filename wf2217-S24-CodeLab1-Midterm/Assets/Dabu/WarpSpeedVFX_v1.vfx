@@ -16,10 +16,10 @@ MonoBehaviour:
   - title: PARTICLES INSIDE
     position:
       serializedVersion: 2
-      x: 348
+      x: 305
       y: -459
-      width: 959
-      height: 1969
+      width: 1003
+      height: 1983
     contents:
     - model: {fileID: 8926484042661614864}
       id: 0
@@ -95,8 +95,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 100
     y: -917
-    width: 1207
-    height: 2427
+    width: 1209
+    height: 2441
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -478,14 +478,14 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614784}
       inputSlot: {fileID: 8926484042661614961}
-    position: {x: 527, y: -281}
+    position: {x: 527.3333, y: -281.33334}
     expandedSlots: []
     expanded: 0
   - m_Id: 2
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614784}
       inputSlot: {fileID: 8926484042661614965}
-    position: {x: 381, y: 913}
+    position: {x: 381.33334, y: 912.6667}
     expandedSlots: []
     expanded: 0
   - m_Id: 3
@@ -494,9 +494,9 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661614969}
     - outputSlot: {fileID: 8926484042661614784}
       inputSlot: {fileID: 8926484042661614988}
-    position: {x: 460, y: 443}
+    position: {x: 330.66666, y: 402.66666}
     expandedSlots: []
-    expanded: 0
+    expanded: 1
 --- !u!114 &8926484042661614784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614798}
       inputSlot: {fileID: 8926484042661614973}
-    position: {x: 437, y: -50}
+    position: {x: 345.33334, y: -70.666664}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614798
@@ -657,7 +657,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614829}
       inputSlot: {fileID: 8926484042661614962}
-    position: {x: 556, y: -235}
+    position: {x: 556, y: -235.33333}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614829
@@ -4175,7 +4175,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 657, y: 469}
+  m_UIPosition: {x: 587, y: 454}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4311,7 +4311,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 612, y: -83}
+  m_UIPosition: {x: 568, y: -79}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4815,7 +4815,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 657, y: 335}
+  m_UIPosition: {x: 591, y: 283}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
